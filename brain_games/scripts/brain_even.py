@@ -1,6 +1,8 @@
-from brain_games import engine
-from brain_games.games import even
-
+from brain_games.engine import run_game
+from brain_games.games.even import even  # заменяем на свою игру
 
 def main():
-    engine.run(even)
+    run_game(even)
+
+if __name__ == '__main__':
+    main()
