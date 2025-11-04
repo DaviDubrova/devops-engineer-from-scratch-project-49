@@ -1,8 +1,10 @@
 import prompt
+
 MAX_ROUNDS = 3
 
+
 def run(game):
-    """Сотый запуск игры."""
+
 
     print("Welcome to the Brain Games!")
     user_name = prompt.string('May I have your name? ')
@@ -10,12 +12,12 @@ def run(game):
     print(game.DESCRIPTION)
 
     for _ in range(MAX_ROUNDS):
-        question, correct_answer = game.get_question()
+        question, result = game.get_question()
         print(f"Question: {question}")
         answer = input("Your answer: ")
-        if answer != correct_answer:
+        if answer != result:
             print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
+                f"'{answer}' is wrong answer ;(. Correct answer was '{result}'."
                 )
             print(f"Let's try again, {user_name}!")
             return
