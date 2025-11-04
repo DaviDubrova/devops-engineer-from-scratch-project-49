@@ -1,7 +1,7 @@
 import random
 import operator
 
-RULES = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 OPERATIONS = {
     '+': operator.add,
@@ -10,7 +10,7 @@ OPERATIONS = {
 }
 
 
-def generate_round():
+def get_question():
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 20)
     operation = random.choice(list(OPERATIONS.keys()))
