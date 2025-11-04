@@ -26,7 +26,7 @@ This repository contains simple command-line games written in Python as part of 
 [![Actions Status](https://github.com/DaviDubrova/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DaviDubrova/devops-engineer-from-scratch-project-49/actions)
 
 
-## 🎮 Launch and demonstration of the game
+## Launch and demonstration of the game
 ## Launch the brain games:
 ```bash
 brain-games
@@ -34,3 +34,66 @@ brain-games
 ### Demonstration of different outcomes:
 
 ### 1. Successful completion of the game:
+[![asciicast](https://asciinema.org/a/xZyAYwWHfdPXZ7LFeb6Boihtc.svg)](https://asciinema.org/a/xZyAYwWHfdPXZ7LFeb6Boihtc)
+
+## Launch the even game:
+```bash
+brain-even
+```
+### Demonstration of different outcomes:
+
+### 1. Successful completion of the game:
+[![asciicast](https://asciinema.org/a/vfBCFRYCXUGVqdBYtQxqrWeFj.svg)](https://asciinema.org/a/vfBCFRYCXUGVqdBYtQxqrWeFj)
+
+
+### 2. Wrong answer:
+[![asciicast](https://asciinema.org/a/ehZ4W4PfW8InH70EKEAO89qh7.svg)](https://asciinema.org/a/ehZ4W4PfW8InH70EKEAO89qh7)
+
+## Launch the calc game:
+```bash
+brain-calc
+```
+### Demonstration of different outcomes:
+
+### 1. Successful completion of the game:
+[![asciicast](https://asciinema.org/a/2pM2Mb5ebgFZbKVlTF1VaYjiV.svg)](https://asciinema.org/a/2pM2Mb5ebgFZbKVlTF1VaYjiV)
+
+### 2. Wrong answer:
+[![asciicast](https://asciinema.org/a/omCH3Vt04t0HVtDgmv5zWdQsy.svg)](https://asciinema.org/a/omCH3Vt04t0HVtDgmv5zWdQsy)
+
+## Launch the GCD game:
+```bash
+brain-gcd
+```
+### Demonstration of different outcomes:
+
+### 1. Successful completion of the game:
+[![asciicast](https://asciinema.org/a/go8PtP9ZpS9U3Pstx6tn8HU3t.svg)](https://asciinema.org/a/go8PtP9ZpS9U3Pstx6tn8HU3t)
+
+### 2. Wrong answer:
+[![asciicast](https://asciinema.org/a/nzwOJNqOfFz2uuLupMtMkCZFB.svg)](https://asciinema.org/a/nzwOJNqOfFz2uuLupMtMkCZFB)
+
+## Launch the progression games:
+```bash
+brain-progression
+```
+### Demonstration of different outcomes:
+
+### 1. Successful completion of the game:
+[![asciicast](https://asciinema.org/a/jzq36Jk3z0KgROhgK3pnY4Ij0.svg)](https://asciinema.org/a/jzq36Jk3z0KgROhgK3pnY4Ij0)
+
+### 2. Wrong answer:
+[![asciicast](https://asciinema.org/a/jIapyEO3lAYal66kTuqw4iDg8.svg)](https://asciinema.org/a/jIapyEO3lAYal66kTuqw4iDg8)
+
+## Launch the prime games:
+```bash
+brain-prime
+```
+### Demonstration of different outcomes:
+
+### 1. Successful completion of the game:
+[![asciicast](https://asciinema.org/a/ekEgfa5T8enkocGCSwYYDdl77.svg)](https://asciinema.org/a/ekEgfa5T8enkocGCSwYYDdl77)
+
+### 2. Wrong answer:
+[![asciicast](https://asciinema.org/a/tEL7Q5Zdr19zVGsNIHk8I2ALd.svg)](https://asciinema.org/a/tEL7Q5Zdr19zVGsNIHk8I2ALd)
+
