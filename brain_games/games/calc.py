@@ -1,3 +1,4 @@
+from brain_games.constants import MIN_NUMBER, TWENTY
 import random
 import operator
 
@@ -11,8 +12,8 @@ OPERATIONS = {
 
 
 def get_question():
-    num1 = random.randint(1, 20)
-    num2 = random.randint(1, 20)
+    num1 = random.randint(MIN_NUMBER, TWENTY)
+    num2 = random.randint(MIN_NUMBER, TWENTY)
     operation = random.choice(list(OPERATIONS.keys()))
     question = f"{num1} {operation} {num2}"
     correct_answer = OPERATIONS[operation](num1, num2)
