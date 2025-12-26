@@ -25,6 +25,18 @@ This repository contains simple command-line games written in Python as part of 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/DaviDubrova/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DaviDubrova/devops-engineer-from-scratch-project-49/actions)
 
+## Installation and setup
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/DaviDubrova/devops-engineer-from-scratch-project-49.git
+cd ~/devops-engineer-from-scratch-project-49/brain-games
+```
+2. **Install the package:**
+```bash
+make install
+```
 
 ## Launch and demonstration of the game
 ## Launch the brain games:

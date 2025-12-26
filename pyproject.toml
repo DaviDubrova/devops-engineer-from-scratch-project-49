@@ -34,3 +34,8 @@ line-length = 88
 [tool.ruff.lint]
 select = ["E", "F", "W"]
 ignore = []
+
+[tool.uv.workspace]
+members = [
+    "brain_games",
+]
